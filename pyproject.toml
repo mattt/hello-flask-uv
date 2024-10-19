@@ -1,15 +1,8 @@
-[tool.poetry]
-name = "hello-flask-poetry"
+[project]
+name = "hello-flask-uv"
 version = "0.1.0"
-description = ""
-authors = ["Donatas Rasiukevicius <donatas@fly.io>"]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10"
-flask = "^3.0.3"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.8"
+dependencies = [
+    "flask>=3.0.3",
+]
